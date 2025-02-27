@@ -47,6 +47,7 @@ jobs:
 
       - name: Run migrations
         run: |
+          export TESTING=1
           cd backend
           python manage.py migrate
 

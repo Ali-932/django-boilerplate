@@ -144,7 +144,7 @@ SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('Bearer',),
 }
 
-PERSISTENT_DATA_PATH = '/persistent_data/'
+PERSISTENT_DATA_PATH = 'persistent_data/'
 Path(PERSISTENT_DATA_PATH).mkdir(parents=True, exist_ok=True)
 LOG_FILE_PATH = os.path.join(PERSISTENT_DATA_PATH + 'logs')  # Path for log files
 
